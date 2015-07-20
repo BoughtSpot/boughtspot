@@ -6,7 +6,9 @@
     %body
         = render 'layouts/navbar'
 
-        = yield
+        .body--wrapper
+
+            = yield
 
         = render 'layouts/footer'
 

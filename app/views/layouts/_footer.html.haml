@@ -1,5 +1,12 @@
-You've heard us speak, will you work with us? Call 00233208747355 or leave us a message
+%footer
+    %section.footer--text.text--center
+        .container
+            %p You've heard us speak, will you work with us? Call #{link_to '+233208747355', "tel:00233208747355"} or leave us a message below.
 
-form
+    %section
+        .container
+            %span.align--left.copyright
+                © Copyleft, 2015.
 
-© Copyleft, 2015. BoughtSpot
+            %span.align--right
+                = link_to image_tag('boughtspot.svg', :class => "footer--logo"), '/'

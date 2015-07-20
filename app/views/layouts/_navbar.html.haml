@@ -1,6 +1,10 @@
-%a{:href => "/"} BoughtSpot
-%a{:href => "/"} Home
-%a{:href => "/about"} About You
-%a{:href => "/services"} Offers
-%a{:href => "/cases"} Case Studies
-%a{:href => "/contact"} Contact
+%header.main--header
+    .container
+        = link_to image_tag('boughtspot.svg', :class => "logo"), '/'
+
+        %nav.main--navbar
+            %a{:href => "/"} Home
+            %a{:href => "/about"} About You
+            %a{:href => "/services"} Offers
+            %a{:href => "/cases"} Case Studies
+            %a{:href => "/contact"} Contact
