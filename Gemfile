@@ -9,11 +9,14 @@ gem 'jquery-rails'
 gem 'mail_form'
 gem 'pg'
 gem 'rails', '4.2.1'
+gem 'rails_12factor'
 gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'simple_form', '~> 3.1.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+
+ruby '2.0.0'
 
 group :development, :test do
 
