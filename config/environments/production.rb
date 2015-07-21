@@ -72,7 +72,7 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.default :charset => "utf-8"
 
-  confi.action_mailer.smtp_settings = {
+  config.action_mailer.smtp_settings = {
     address: "smtp.zoho.com",
     port: 587,
     domain: ENV["ZOHO_DOMAIN"],
