@@ -1,14 +1,15 @@
 Rails.application.routes.draw do
 
+  resources "contacts", only: [:new, :create]
+  
   root 'pages#index'
 
-  get '/contact'  => 'pages#contact'
+  # get '/contact'  => 'pages#contact'
   get '/services' => 'pages#services'
   get '/about'    => 'pages#about'
   get '/cases'    => 'pages#cases'
 
 
-  resources "contacts", only: [:new, :create]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
