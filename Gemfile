@@ -16,7 +16,7 @@ gem 'simple_form', '~> 3.1.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 
-ruby '2.0.0'
+ruby '2.1.5'
 
 group :development, :test do
 
