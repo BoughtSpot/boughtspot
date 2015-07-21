@@ -65,8 +65,8 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   # Set custom action mailer settings to allow for contact form emails
-  config.action_mailer.default_url_options = { :host => 'boughtspot.herokuapp.com' }
-  config.action_mailer.default_url_options[:host] = 'boughtspot.herokuapp.com'
+  config.action_mailer.default_url_options = { :host => 'bought-spot.herokuapp.com' }
+  config.action_mailer.default_url_options[:host] = 'bought-spot.herokuapp.com'
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
