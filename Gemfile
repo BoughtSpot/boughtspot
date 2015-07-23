@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'coffee-rails', '~> 4.1.0'
+gem 'dotenv-rails', :groups => [:development, :test]
 gem 'haml', '~> 4.0.6'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'

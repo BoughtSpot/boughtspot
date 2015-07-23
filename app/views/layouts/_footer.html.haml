@@ -3,7 +3,7 @@
         .container
             %p You've heard us speak, will you work with us? Call #{link_to '+233208747355', "tel:00233208747355"} or leave us a message below.
 
-            / # = render :file => '#{Rails.root}/app/views/contacts/new.html.haml', :layout => false
+            = render template: 'contacts/new'
 
     %section
         .container
