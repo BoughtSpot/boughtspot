@@ -1,7 +1,9 @@
 .text--center
     %h3 Send a message to Us
 
-    = simple_form_for :contact, :url => {:action => :create} do |f| 
+    / # = simple_form_for :contact, :url => {:action => :new} do |f| 
+    / # = simple_form_for @contact do |f| 
+    = simple_form_for Contact.new do |f| 
         = f.input :name, :required => true
         = f.input :email, :required => true
         = f.input :subject
